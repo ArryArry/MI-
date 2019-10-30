@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MI</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/Index.css">
+</head>
+<body>
+    <!--headerTop-->
+    <!--静态结构：div.header-top>div.container.clear>(div.fl>ul.clear>(li>a+span)*10)+(div.fr>a*4+span*2)-->
+    <div class="header-top">
+        <div class="container clear">
+            <div class="fl">
+                <ul class="clear">
+                    <li class="fl navbar-nav" > <a href="#">小米商城</a><span>|</span></li>
+                    <li class="fl navbar-nav" > <a href="#">MI</a><span>|</span></li>
+                    <li class="fl navbar-nav" > <a href="#">我聊</a><span>|</span></li>
+                    <li class="fl navbar-nav" > <a href="#">游戏</a><span>|</span></li>
+                    <li class="fl navbar-nav" > <a href="#">多看阅读</a><span>|</span></li>
+                    <li class="fl navbar-nav" > <a href="#">云服务</a><span>|</span></li>
+                    <li class="fl navbar-nav" > <a href="#">金融</a><span>|</span></li>
+                    <li class="fl navbar-nav" > <a href="#">小米网移动版</a><span>|</span></li>
+                    <li class="fl navbar-nav" > <a href="#">问题反馈</a><span>|</span></li>
+                    <li class="fl navbar-nav" > <a href="#">select Region</a></li>
+                </ul>
+            </div>
+            <div class="fr">
+                <a href="#" class="register" >登陆</a>
+                <span>|</span>
+                <a href="#" class="login">注册</a>
+                <span>|</span>
+                <a href="#" class="tz">消息通知</a>
+                <a href="#" class="cart">
+                    <i class="iconfont cart-mini">&#xe621;</i>
+                    购物车（0）
+                    <div class="cart-menu">购物车中还没有商品，赶紧选购吧！</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--navbar-->
+    <!--静态结构：div.fr.clear.nav-rt>from.search-from>label+input+(a>span)+(div.seach-woeds>a*2)+div.keywoeds-->
+    <div class="header-navbar container">
+        <a href="javascript:" class="logo fl">
+            <img class="center" src="img/mi-logo.png" alt="">
+        </a>
+        <div class="nav fl">
+            <ul class="clear nav-item">
+                <li class="fl "><a class="link" href="javascript:"><span class="text">小米手机</span></a></li>
+                <li class="fl"><a class="link" href="javascript:"><span class="text">红米</span></a></li>
+                <li class="fl"><a class="link" href="javascript:"><span class="text">平板 · 笔记本</span></a></li>
+                <li class="fl"><a class="link" href="javascript:"><span class="text">电视</span></a></li>
+                <li class="fl"><a class="link" href="javascript:"><span class="text">盒子 · 影音</span></a></li>
+                <li class="fl"><a class="link" href="javascript:"><span class="text">路由器</span></a></li>
+                <li class="fl"><a class="link" href="javascript:"><span class="text">智能硬件</span></a></li>
+                <li class="fl"><a class="link" href="javascript:"><span class="text">服务</span></a></li>
+                <li class="fl"><a class="link" href="javascript:"><span class="text">社区</span></a></li>
+            </ul>
+        </div>
+        <div class="fr clear nav-rt">
+            <form class="search-form">
+                <label for="search">
+                </label>
+                <input id="search" class="search-text">
+                <a href="javascript:" class="search-btn">
+                    <span class="iconfont center">&#xe616;</span>
+                </a>
+                <div class="search-words">
+                    <a href="javascript:">小米MIX</a>
+                    <a href="javascript:">人工智能电视</a>
+                </div>
+                <div class="keywords">
+                    <ul class="result-list">
+                        <li><a href="javascript:">小米5s Plus<span class="result">约有5件</span></a></li>
+                        <li><a href="javascript:">小米Max<span class="result">约有8件</span></a></li>
+                        <li><a href="javascript:">小米手机5<span class="result">约有5件</span></a></li>
+                        <li><a href="javascript:">空气净化器<span class="result">约有5件</span></a></li>
+                        <li><a href="javascript:">活塞耳机<span class="result">约有5件</span></a></li>
+                        <li><a href="javascript:">小米小米电视3S 43英寸<span class="result">约有5件</span></a></li>
+                        <li><a href="javascript:">移动电源<span class="result">约有5件</span></a></li>
+                        <li><a href="javascript:">运动相机<span class="result">约有5件</span></a></li>
+                        <li><a href="javascript:">小蚁摄像机<span class="result">约有5件</span></a></li>
+                        <li><a href="javascript:">小米体重秤<span class="result">约有5件</span></a></li>
+                        <li><a href="javascript:">小米插线板<span class="result">约有5件</span></a></li>
+                        <li><a href="javascript:">配件优惠套装<span class="result">约有5件</span></a></li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--静态结构：div.header-nav-menu>ul.children-list.clear>(li>div.figure-thumb figure+div.title+p.price)*8-->
+    <div class="header-nav-menu header-nav-menu-active">
+        <ul class="children-list clear">
+            <li class="first">
+                <div class="figure-thumb figure">
+                    <a href="#">
+                        <img src="img/nav/n1.png" alt="">
+                    </a>
+                </div>
+                <div class="title">
+                    <a href="javascript:"> 小米Note 2</a>
+                </div>
+                <p class="price">2799起</p>
+            </li>
+            <li>
+                <div class="figure-thumb figure">
+                    <a href="#">
+                        <img src="img/nav/n1.png" alt="">
+                    </a>
+                </div>
+                <div class="title">
+                    <a href="javascript:"> 小米Note 2</a>
+                </div>
+                <p class="price">2799起</p>
+            </li>
+        </ul>
+        <ul class="children-list clear">
+            <li class="first">
+                <div class="figure-thumb figure">
+                    <a href="#">
+                        <img src="img/nav/n1.png" alt="">
+                    </a>
+                </div>
+                <div class="title">
+                    <a href="javascript:"> 小米Note 2</a>
+                </div>
+                <p class="price">2799起</p>
+            </li>
+            <li>
+                <div class="figure-thumb figure">
+                    <a href="#">
+                        <img src="img/nav/n1.png" alt="">
+                    </a>
+                </div>
+                <div class="title">
+                    <a href="javascript:"> 小米Note 2</a>
+                </div>
+                <p class="price">2799起</p>
+            </li>
+        </ul>
+        <ul class="children-list clear">
+            <li class="first">
+                <div class="figure-thumb figure">
+                    <a href="#">
+                        <img src="img/nav/n1.png" alt="">
+                    </a>
+                </div>
+                <div class="title">
+                    <a href="javascript:"> 小米Note 2</a>
+                </div>
+                <p class="price">2799起</p>
+            </li>
+            <li>
+                <div class="figure-thumb figure">
+                    <a href="#">
+                        <img src="img/nav/n1.png" alt="">
+                    </a>
+                </div>
+                <div class="title">
+                    <a href="javascript:"> 小米Note 2</a>
+                </div>
+                <p class="price">2799起</p>
+            </li>
+        </ul>
+        <ul class="children-list clear">
+            <li class="first">
+                <div class="figure-thumb figure">
+                    <a href="#">
+                        <img src="img/nav/n1.png" alt="">
+                    </a>
+                </div>
+                <div class="title">
+                    <a href="javascript:"> 小米Note 2</a>
+                </div>
+                <p class="price">2799起</p>
+            </li>
+            <li>
+                <div class="figure-thumb figure">
+                    <a href="#">
+                        <img src="img/nav/n1.png" alt="">
+                    </a>
+                </div>
+                <div class="title">
+                    <a href="javascript:"> 小米Note 2</a>
+                </div>
+                <p class="price">2799起</p>
+            </li>
+        </ul>
+        <ul class="children-list clear">
+            <li class="first">
+                <div class="figure-thumb figure">
+                    <a href="#">
+                        <img src="img/nav/n1.png" alt="">
+                    </a>
+                </div>
+                <div class="title">
+                    <a href="javascript:"> 小米Note 2</a>
+                </div>
+                <p class="price">2799起</p>
+            </li>
+            <li>
+                <div class="figure-thumb figure">
+                    <a href="#">
+                        <img src="img/nav/n1.png" alt="">
+                    </a>
+                </div>
+                <div class="title">
+                    <a href="javascript:"> 小米Note 2</a>
+                </div>
+                <p class="price">2799起</p>
+            </li>
+        </ul>
+        <ul class="children-list clear">
+            <li class="first">
+                <div class="figure-thumb figure">
+                    <a href="#">
+                        <img src="img/nav/n1.png" alt="">
+                    </a>
+                </div>
+                <div class="title">
+                    <a href="javascript:"> 小米Note 2</a>
+                </div>
+                <p class="price">2799起</p>
+            </li>
+            <li>
+                <div class="figure-thumb figure">
+                    <a href="#">
+                        <img src="img/nav/n1.png" alt="">
+                    </a>
+                </div>
+                <div class="title">
+                    <a href="javascript:"> 小米Note 2</a>
+                </div>
+                <p class="price">2799起</p>
+            </li>
+        </ul>
+        <ul class="children-list clear">
+            <li class="first">
+                <div class="figure-thumb figure">
+                    <a href="#">
+                        <img src="img/nav/n1.png" alt="">
+                    </a>
+                </div>
+                <div class="title">
+                    <a href="javascript:"> 小米Note 2</a>
+                </div>
+                <p class="price">2799起</p>
+            </li>
+            <li>
+                <div class="figure-thumb figure">
+                    <a href="#">
+                        <img src="img/nav/n1.png" alt="">
+                    </a>
+                </div>
+                <div class="title">
+                    <a href="javascript:"> 小米Note 2</a>
+                </div>
+                <p class="price">2799起</p>
+            </li>
+        </ul>
+    </div>
+
+    <!--category slider-->
+    <!--静态结构：div.slider.container>(ul.slider-main>(li>a>img)*5)+(ul.index>li*5)+(a.pre+a.next) + -->
+    <!--⬆️div.category>ul.categoryList>li.category-item>(a>span)+div.children>ul.children-list>li.star-goods>(a>img+span)+a-->
+    <div class="slider container">
+        <ul class="slider-main">
+            <li><a href="#"><img src="img/slider/1.png" alt=""></a></li>
+            <li><a href="#"><img src="img/slider/2.png" alt=""></a></li>
+            <li><a href="#"><img src="img/slider/3.png" alt=""></a></li>
+            <li><a href="#"><img src="img/slider/4.png" alt=""></a></li>
+            <li><a href="#"><img src="img/slider/1.png" alt=""></a></li>
+        </ul>
+        <ul class="index">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <a href="#" class="btn pre"></a>
+        <a href="#" class="btn next"></a>
+
+        <div class="category">
+            <ul class="category-list clear">
+                <li class="category-item">
+
+                    <a class="title" href="#">手机 电话卡<span class="iconfont">&#xe63f;</span></a>
+
+                    <div class="children clear children-col-1" style="display: none;">
+                        <ul class="children-list children-list-col">
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米Note2</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MIX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米5s</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb"
+                                                                        src="img/category/p.png" width="40"
+                                                                        height="40" alt=""><span
+                                        class="text">小米5s Plus</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米手机5</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MAX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="category-item">
+
+                    <a class="title" href="#">手机 电话卡<span class="iconfont">&#xe63f;</span></a>
+
+                    <div class="children clear children-col-2" style="display: none;">
+                        <ul class="children-list children-list-col">
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米Note2</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MIX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米5s</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb"
+                                                                        src="img/category/p.png" width="40"
+                                                                        height="40" alt=""><span
+                                        class="text">小米5s Plus</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米手机5</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MAX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                        </ul>
+                        <ul class="children-list children-list-col">
+                            <li class="star-goods">
+                                <a class="link" href="javascript:">
+                                    <img class="thumb" src="img/category/p.png" width="40" height="40" alt="">
+                                    <span class="text">红小米4</span>
+                                </a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:">
+                                    <img class="thumb" src="img/category/p.png" width="40" height="40" alt="">
+                                    <span class="text">红小米4</span>
+                                </a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:">
+                                    <img class="thumb" src="img/category/p.png" width="40" height="40" alt="">
+                                    <span class="text">红小米4</span>
+                                </a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:">
+                                    <img class="thumb" src="img/category/p.png" width="40" height="40" alt="">
+                                    <span class="text">红小米4</span>
+                                </a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:">
+                                    <img class="thumb" src="img/category/p.png" width="40" height="40" alt="">
+                                    <span class="text">红小米4</span>
+                                </a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li class="category-item">
+
+                    <a class="title" href="#">手机 电话卡<span class="iconfont">&#xe63f;</span></a>
+
+                    <div class="children clear children-col-3" style="display: none;">
+                        <ul class="children-list children-list-col">
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米Note2</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MIX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米5s</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb"
+                                                                        src="img/category/p.png" width="40"
+                                                                        height="40" alt=""><span
+                                        class="text">小米5s Plus</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米手机5</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MAX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="category-item">
+
+                    <a class="title" href="#">手机 电话卡<span class="iconfont">&#xe63f;</span></a>
+
+                    <div class="children clear children-col-1" style="display: none;">
+                        <ul class="children-list children-list-col">
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米Note2</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MIX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米5s</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb"
+                                                                        src="img/category/p.png" width="40"
+                                                                        height="40" alt=""><span
+                                        class="text">小米5s Plus</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米手机5</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MAX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="category-item">
+
+                    <a class="title" href="#">手机 电话卡<span class="iconfont">&#xe63f;</span></a>
+
+                    <div class="children clear children-col-2" style="display: none;">
+                        <ul class="children-list children-list-col">
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米Note2</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MIX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米5s</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb"
+                                                                        src="img/category/p.png" width="40"
+                                                                        height="40" alt=""><span
+                                        class="text">小米5s Plus</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米手机5</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MAX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                        </ul>
+                        <ul class="children-list children-list-col">
+                            <li class="star-goods">
+                                <a class="link" href="javascript:">
+                                    <img class="thumb" src="img/category/p.png" width="40" height="40" alt="">
+                                    <span class="text">红小米4</span>
+                                </a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:">
+                                    <img class="thumb" src="img/category/p.png" width="40" height="40" alt="">
+                                    <span class="text">红小米4</span>
+                                </a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:">
+                                    <img class="thumb" src="img/category/p.png" width="40" height="40" alt="">
+                                    <span class="text">红小米4</span>
+                                </a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:">
+                                    <img class="thumb" src="img/category/p.png" width="40" height="40" alt="">
+                                    <span class="text">红小米4</span>
+                                </a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:">
+                                    <img class="thumb" src="img/category/p.png" width="40" height="40" alt="">
+                                    <span class="text">红小米4</span>
+                                </a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li class="category-item">
+
+                    <a class="title" href="#">手机 电话卡<span class="iconfont">&#xe63f;</span></a>
+
+                    <div class="children clear children-col-3" style="display: none;">
+                        <ul class="children-list children-list-col">
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米Note2</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MIX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米5s</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb"
+                                                                        src="img/category/p.png" width="40"
+                                                                        height="40" alt=""><span
+                                        class="text">小米5s Plus</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米手机5</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MAX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="category-item">
+
+                    <a class="title" href="#">手机 电话卡<span class="iconfont">&#xe63f;</span></a>
+
+                    <div class="children clear children-col-1" style="display: none;">
+                        <ul class="children-list children-list-col">
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米Note2</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MIX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米5s</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb"
+                                                                        src="img/category/p.png" width="40"
+                                                                        height="40" alt=""><span
+                                        class="text">小米5s Plus</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米手机5</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MAX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="category-item">
+
+                    <a class="title" href="#">手机 电话卡<span class="iconfont">&#xe63f;</span></a>
+
+                    <div class="children clear children-col-2" style="display: none;">
+                        <ul class="children-list children-list-col">
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米Note2</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MIX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米5s</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb"
+                                                                        src="img/category/p.png" width="40"
+                                                                        height="40" alt=""><span
+                                        class="text">小米5s Plus</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米手机5</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MAX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                        </ul>
+                        <ul class="children-list children-list-col">
+                            <li class="star-goods">
+                                <a class="link" href="javascript:">
+                                    <img class="thumb" src="img/category/p.png" width="40" height="40" alt="">
+                                    <span class="text">红小米4</span>
+                                </a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:">
+                                    <img class="thumb" src="img/category/p.png" width="40" height="40" alt="">
+                                    <span class="text">红小米4</span>
+                                </a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:">
+                                    <img class="thumb" src="img/category/p.png" width="40" height="40" alt="">
+                                    <span class="text">红小米4</span>
+                                </a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:">
+                                    <img class="thumb" src="img/category/p.png" width="40" height="40" alt="">
+                                    <span class="text">红小米4</span>
+                                </a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:">
+                                    <img class="thumb" src="img/category/p.png" width="40" height="40" alt="">
+                                    <span class="text">红小米4</span>
+                                </a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li class="category-item">
+
+                    <a class="title" href="#">手机 电话卡<span class="iconfont">&#xe63f;</span></a>
+
+                    <div class="children clear children-col-3" style="display: none;">
+                        <ul class="children-list children-list-col">
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米Note2</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MIX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米5s</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb"
+                                                                        src="img/category/p.png" width="40"
+                                                                        height="40" alt=""><span
+                                        class="text">小米5s Plus</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米手机5</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MAX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="category-item">
+
+                    <a class="title" href="#">手机 电话卡<span class="iconfont">&#xe63f;</span></a>
+
+                    <div class="children clear children-col-1" style="display: none;">
+                        <ul class="children-list children-list-col">
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米Note2</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MIX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米5s</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb"
+                                                                        src="img/category/p.png" width="40"
+                                                                        height="40" alt=""><span
+                                        class="text">小米5s Plus</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米手机5</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                            <li class="star-goods">
+                                <a class="link" href="javascript:"><img class="thumb" src="img/category/p.png"
+                                                                        width="40" height="40" alt=""><span
+                                        class="text">小米MAX</span></a>
+                                <a class="btn  btn-buy" href="javascript:">选购</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
